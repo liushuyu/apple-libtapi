@@ -38,6 +38,9 @@ enum FileType : unsigned {
   /// \brief Text-based stub file (.tbd) version 2.0
   TBD_V2                    = 1U << 3,
 
+  /// \brief Text-based stub file (.tbd) version 3.0
+  TBD_V3                    = 1U << 4,
+
   All                       = ~0U,
 };
 
